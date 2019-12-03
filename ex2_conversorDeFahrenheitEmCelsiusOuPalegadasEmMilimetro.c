@@ -6,13 +6,12 @@ int main()
 	int l;
 	float fa,cel;
 	
-	printf("Digite 0 se vc quiser converter Fahrenheit em cessius ou 1 para palegadas em milimetro:");
+	printf("Digite 0 se vc quiser converter Fahrenheit em celsius ou 1 para palegadas em milimetro:");
 	scanf("%d", &l);
 	
 	while(l!=1 && l!=0)
-	{
-		
-		printf("Digite 0 se vc quiser converter Fahrenheit em cessius ou 1 para palegadas em milimetro: ");
+	{		
+		printf("Digite 0 se vc quiser converter Fahrenheit em celsius ou 1 para palegadas em milimetro: ");
 		scanf("%d", &l);
 	}
 	
