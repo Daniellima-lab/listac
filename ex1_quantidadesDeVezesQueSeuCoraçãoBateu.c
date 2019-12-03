@@ -3,8 +3,6 @@
 #include <locale.h>
 int main()
 {
-	
-	
 	setlocale(LC_ALL, "portuguese");
 	int ano;
 	
@@ -13,7 +11,7 @@ int main()
 	
 	ano=ano*31536000;
 	
-	printf("O coração bateu por volta de: %d\n", ano);
+	printf("O coraÃ§Ã£o bateu por volta de: %d\n", ano);
 	
 	system("pause");
 	return 0;
